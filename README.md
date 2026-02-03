@@ -142,12 +142,24 @@ npm run dev
 
 ## Future Enhancements
 
-* Replace mock authentication with Adobe IMS or OAuth
-* Integrate AEM Content Fragments using GraphQL
-* Load dashboard configuration from AEM instead of local config
-* Improve UI styling and responsiveness
-* Add unit and integration tests
-* Deploy the application for live demo access
+This project is planned to evolve into a commerce-oriented application with the
+following enhancements:
+
+- Product listing pages with data fetched from a headless CMS (AEM)
+- Product detail pages with pricing, description, and media
+- Add to cart and cart management functionality
+- Checkout flow with order summary
+- Basic order placement simulation
+- User-specific cart and order history
+- Role-based access for admin and author users to manage product content
+- Integration with AEM Content Fragments for product and catalog management
+- GraphQL-based data fetching from AEM
+- Authentication integration using Adobe IMS or OAuth
+- Improved UI and responsiveness for commerce use cases
+
+The current architecture is intentionally designed to support these features
+without major refactoring.
+
 
 ---
 
