@@ -6,6 +6,8 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import MainLayout from "./layouts/MainLayout";
+import PLP from "./pages/PLP";
+import PDP from "./pages/PDP"
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
 
           {/* public */}
           <Route path="/login" element={<Login />} />
+          <Route path="plp" element={<PLP/>}/>
+          <Route path="/product/:id" element={<PDP />} />
 
           {/* protected */}
           <Route
@@ -28,8 +32,13 @@ function App() {
             <Route path="/profile" element={<Profile />} />
           </Route>
 
+         
+
+
           {/* default */}
           <Route path="*" element={<Navigate to="/login" />} />
+         
+
 
         </Routes>
       </BrowserRouter>
