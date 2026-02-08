@@ -1,19 +1,13 @@
 export const dashboardConfig = {
-  admin: [
-    { id: 1, title: "📊 Analytics" },
-    { id: 2, title: "👥 User Management" },
-    { id: 3, title: "⚙ System Settings" }
+  male: [
+    { id: 1, title: "👟 Shoes", category: "shoes" },
+    { id: 2, title: "⌚ Watches", category: "watches" },
+    { id: 3, title: "🧴 Perfumes", category: "perfumes" }
   ],
 
-  author: [
-    { id: 1, title: "📰 My Content" },
-    { id: 2, title: "✍ Create Article" },
-    { id: 3, title: "📈 Content Performance" }
-  ],
-   Viewer: [
-    { id: 1, title: "📰 Read system Settings" },
-    { id: 2, title: "✍ Read Article" },
-    { id: 3, title: "📈 Read Content Performance" }
+  female: [
+    { id: 1, title: "👜 Accessories", category: "accessories" },
+    { id: 2, title: "👗 Dresses", category: "dresses" },
+    { id: 3, title: "🩱 Blouses", category: "blouses" }
   ]
-
 };

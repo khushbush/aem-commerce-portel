@@ -2,24 +2,77 @@
   "users": [
     {
       "id": 1,
-      "email": "admin@test.com",
+      "email": "jeet@test.com",
       "password": "1234",
-      "name": "Admin User",
-      "role": "admin"
+      "name": "Jeet",
+      "gender": "male"
     },
     {
       "id": 2,
-      "email": "author@test.com",
+      "email": "ria@test.com",
       "password": "1234",
-      "name": "Author User",
-      "role": "author"
-    },
-     {
-      "id": 3,
-      "email": "viewer@test.com",
-      "password": "1234",
-      "name": "Viewer User",
-      "role": "Viewer"
+      "name": "Ria",
+      "gender": "female"
     }
-  ]
+  ],
+
+   "products": [
+  {
+    "id": "p1",
+    "title": "Running Shoes",
+    "description": "Lightweight running shoes",
+    "price": 2999,
+    "category": "shoes",
+    "gender": "male",
+    "sku": "SHOE-001"
+  },
+  {
+    "id": "p2",
+    "title": "Sports Watch",
+    "description": "Water resistant smart watch",
+    "price": 4999,
+    "category": "watches",
+    "gender": "male",
+    "sku": "WATCH-002"
+  },
+  {
+    "id": "p3",
+    "title": "Leather Perfume",
+    "description": "Premium long-lasting fragrance",
+    "price": 1999,
+    "category": "perfumes",
+    "gender": "male",
+    "sku": "PERF-003"
+  },
+
+  {
+    "id": "p4",
+    "title": "Handbag",
+    "description": "Stylish everyday handbag",
+    "price": 3499,
+    "category": "accessories",
+    "gender": "female",
+    "sku": "BAG-004"
+  },
+  {
+    "id": "p5",
+    "title": "Summer Dress",
+    "description": "Lightweight floral dress",
+    "price": 2799,
+    "category": "dresses",
+    "gender": "female",
+    "sku": "DRESS-005"
+  },
+  {
+    "id": "p6",
+    "title": "Casual Blouse",
+    "description": "Comfortable cotton blouse",
+    "price": 1599,
+    "category": "blouses",
+    "gender": "female",
+    "sku": "BLOUSE-006"
+  }
+]
+
+
 }
